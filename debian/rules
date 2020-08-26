@@ -10,5 +10,4 @@ override_dh_auto_build:
 override_dh_install:
 	dh_install
 	mkdir -p debian/python3-remote-pdb/usr/lib/python3/dist-packages
-	find v
-	cp -R v/lib/python3/site-packages/remote_pdb* debian/python3-remote-pdb/usr/lib/python3/dist-packages
+	cp -R v/lib/python3*/site-packages/remote_pdb* debian/python3-remote-pdb/usr/lib/python3/dist-packages
