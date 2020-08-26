@@ -1,0 +1,15 @@
+Source: python3-remote-pdb
+Section: admin
+Priority: optional
+Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
+Build-Depends: debhelper-compat (= 12), python3-virtualenv
+Standards-Version: 4.4.0
+Homepage: https://pypi.org/project/remote-pdb
+
+Package: python3-remote-pdb
+Architecture: amd64
+Depends: python3
+Description: Remote vanilla PDB (over TCP sockets) done right
+ Remote vanilla PDB (over TCP sockets) done right: no extras,
+ proper handling around connection failures and CI. Based on
+ pdbx.

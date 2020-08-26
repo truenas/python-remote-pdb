@@ -1,0 +1,5 @@
+python3-remote-pdb (2.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1)
+
+ -- Vladimir Vinogradenko <vladimirv@ixsystems.com>  Wed,  26 Aug 2020 13:34:17 +0200
